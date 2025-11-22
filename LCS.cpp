@@ -40,7 +40,6 @@ int32_t main()
     }
 
     // ans(0, 0); <- for output tracing (use it for a single test case)
-
     return 0;
 }
 
