@@ -6,6 +6,7 @@ int dp[N][K];
 int n, k, a[N], c[N];
 
 int solve(int i, int curSum){
+	
 	if(curSum > k) {
 		return 0;
 	}
