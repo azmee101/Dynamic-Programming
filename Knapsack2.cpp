@@ -6,8 +6,11 @@ int n, W, w[N], v[N];
 ll dp[N][100007];
 
 ll solve(int inx, ll val) {
-	if(val <= 0) {
-		return 0;
+	if (inx == n) {
+		if (val == 0) {
+			return 0;
+		}
+		return 1e18;
 	}
 	if(dp[inx][val] != -1) {
 		return dp[inx][val];
